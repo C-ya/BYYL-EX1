@@ -1,0 +1,28 @@
+var aA1, b23, c, r;
+{ 将aA1, b23, c排序、标识符为字母数字组合情况、且字母大小写混合 }
+begin
+	read(aA1);
+	read(b23);
+	read(c);
+	if aa1 > b23 then
+		begin
+			r := Aa1;
+			aA1 := b23;
+			b23 := r;
+		end;
+	if b23 > c then
+		begin
+			r := b23;
+			b23 := c;
+			c := r;
+		end;
+	if Aa1 > b23 then
+		begin
+			r := AA1;
+			Aa1 := b23;
+			b23 := r;
+		end;
+	write(Aa1);
+	write(b23);
+	write(c);
+end.

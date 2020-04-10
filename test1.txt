@@ -1,0 +1,28 @@
+var a, b, c, r;
+{ 将a, b, c排序、标识符存在大小写情况 }
+begin
+	read(a);
+	read(b);
+	read(c);
+	if a > b then
+		begin
+			r := A;
+			a := B;
+			b := R;
+		end;
+	if b > c then
+		begin
+			r := B;
+			b := C;
+			c := R;
+		end;
+	if a > b then
+		begin
+			r := A;
+			a := B;
+			b := R;
+		end;
+	write(a);
+	write(b);
+	write(c);
+end.
